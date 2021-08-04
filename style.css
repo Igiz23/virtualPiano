@@ -1,0 +1,88 @@
+body
+{
+    background: linear-gradient(#9796f0, #fbc7d4);
+
+}
+
+.white-keys kbd {
+    background-color: white;
+    border: 3px dimgrey outset;
+    display: inline-block;
+    margin-left: -5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    text: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    width: 30px;
+    height: 40px;
+    padding-top: 60px;
+}
+
+#key-W {
+    position: relative;
+    top: -155px;
+    left: 35px;
+    color: white;
+}
+
+#key-E {
+    position: relative;
+    top: -155px;
+    left: 56px;
+    color: white;
+}
+
+#key-T {
+    position: relative;
+    top: -155px;
+    left: 132px;
+    color: white;
+}
+
+#key-Y {
+    position: relative;
+    top: -155px;
+    left: 154px;
+    color: white;
+}
+
+#key-U {
+    position: relative;
+    top: -155px;
+    left: 174px;
+    color: white;
+}
+
+.container {
+    width: 35%;
+    margin: 30% auto;
+}
+
+#footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 10px;
+    background: #9796f0;
+    color: #fbc7d4;
+    width: 100%;
+
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
